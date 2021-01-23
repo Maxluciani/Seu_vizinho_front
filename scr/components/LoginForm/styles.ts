@@ -20,3 +20,4 @@ export const CheckboxAndSelect = styled.div`
 
 export const CreateButton = styled(Button)`
   margin-top: 16px;
+`

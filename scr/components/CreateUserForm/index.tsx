@@ -1,5 +1,5 @@
 import React, { FormEvent, useState } from 'react'
-import { Title, CreateButton } from './styles'
+import { CheckboxAndSelect, Title, CreateButton } from './styles'
 import { Label as InputLabel } from '../../ui'
 import axios from 'axios'
 
