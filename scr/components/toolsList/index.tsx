@@ -1,16 +1,19 @@
 import React, { useState } from 'react'
-import { useEffectOnce } from 'react-use'
+ //import { useEffectOnce } from 'react-use'
 import { get } from '../../api'
-import { TD, TH, UL } from './styles'
+ //import { TD, TH, UL } from './styles'
 
-type tool = {
+ type Team = {
   id: string
   name: string
-  description: {
+  players: {
     id: string
     name: string
   }[]
 }
+
+
+
 
 // orderedList
 const toolsOl = ({ tools }: { tools: tool[] }) => (
@@ -49,7 +52,7 @@ const toolsTable = ({ tools }: { tools: tool[] }) => (
         <tr>
           {/* table data */}
           <TD>{tool.name}</TD>
-          <TD>{tool.description.map(player => player.name).join(', ')}</TD>
+          <TD>{tool.description.map(description => description.name).join(', ')}</TD>
         </tr>
       ))}
     </tbody>
@@ -66,9 +69,9 @@ const toolsList = () => {
 
   return (
     <>
-      <h3>Times</h3>
-      <toolsOl tools={tools} />
-      <toolsUl tools={tools} />
+      <h3>Feramentas</h3>
+      <toolsOl tools={tool} />
+      <toolsUl tools={tool} />
       <toolsTable tools={tools} />
     </>
   )

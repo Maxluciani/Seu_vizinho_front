@@ -1,12 +1,12 @@
 import React from 'react'
 import { StyledLogo } from './styles'
-import seuvizinho from '/assets/004.jpg'
+import Logo from '/assets/seuviznho.jpg'
 
 const Logo = () => (
   <StyledLogo
-    title="Seu vizinho"
-    alt="Seu vizinho"
-    src={seuvizinho}
+    title="Venha ser um vizinho também"
+    alt="Seuviznho"
+    src={Logo}
   />
 )
 

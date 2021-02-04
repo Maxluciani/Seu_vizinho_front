@@ -1,5 +1,5 @@
 import React, { FormEvent, useState } from 'react'
-import { Title, CreateButton } from './styles' //
+import { Title, CreateButton } from './styles'
 import { Label as InputLabel } from '../../ui'
 import axios from 'axios'
 
@@ -25,7 +25,7 @@ const LoginForm = () => {
         <input
           type='email'
           name='email'
-          placeholder='jhon.test@gmail.com'
+          placeholder='luiz.contato@gmail.com'
           value={email}
           onChange={e => setEmail(e.target.value)}
         />

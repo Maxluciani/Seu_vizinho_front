@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components"
 import { Button } from '../../ui'
 
 export const Title = styled.h1`
@@ -14,7 +14,7 @@ export const CheckboxAndSelect = styled.div`
   justify-content: flex-end;
   /* center | flex-start | flex-end */
   align-items: flex-start;
-  background-color: yellow;
+  background-color: gray;
   height: 140px;
 `
 
