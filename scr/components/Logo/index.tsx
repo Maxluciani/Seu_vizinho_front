@@ -1,6 +1,6 @@
 import React from 'react'
 import { StyledLogo } from './styles'
-import Seuvizinho from '../assets/004.png';
+import Seuvizinho from '/assets/004.png';
 
 const Logo = () => (
   <StyledLogo
