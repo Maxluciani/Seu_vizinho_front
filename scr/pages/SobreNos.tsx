@@ -1,5 +1,5 @@
 import React from 'react'
-import { Section } from './styles'
+import { Section } from '../components/Texts/styles'
 
 const Texts = () => (
   <Section>

@@ -1,6 +1,8 @@
-export type Colors = 'primary' | 'error'
+export type Colors = 'primary' | 'secundary' | 'error'
 
 export const colors: Record<Colors, string> = {
-  primary: '#0927eb',
-  error: '#b80710'
+  primary: '#de5223',
+  secundary: '#b3bbbd',
+  error: '#4e5152'
+
 }

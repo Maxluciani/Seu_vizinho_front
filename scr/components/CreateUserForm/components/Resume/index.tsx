@@ -1,7 +1,7 @@
 import React from 'react'
 import { useCreateUserContext } from '../CreateUser'
 import { Section } from './styles'
-import { Label } from '/ui'
+import { Label } from '../../../../ui'
 
 const CreateUserResume = ({ ...rest }) => {
   const {

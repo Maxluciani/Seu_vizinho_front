@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useState } from 'react'
-import Logo from '/components/Logo'
+import Logo from '../../../Logo'
 import Form from '../Form'
-import { FirstFormTitle } from '/common/Titles'
+import { FirstFormTitle } from '../../../../common/Titles'
 import { Main, Resume } from './styles'
 
 type ContextValues = {

@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
-import Texts from '../components/Texts'
-import Form from '../components/CreateUserForm'
+import Form from '../components/CreateUserForm/components/Form'
 import { FirstFormTitle, SecondFormTitle } from '../common/Titles'
 import Logo from '../components/Logo'
 
