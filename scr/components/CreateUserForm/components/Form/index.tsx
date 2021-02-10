@@ -1,6 +1,6 @@
 import React from 'react'
 import { Title, CreateButton } from './styles'
-import { Label as InputLabel } from '/ui'
+import { Label as InputLabel } from '../../../../ui'
 import { useCreateUserContext } from '../CreateUser'
 import useSendUser from '../../hooks/useSendUser'
 

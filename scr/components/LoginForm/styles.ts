@@ -14,7 +14,7 @@ export const CheckboxAndSelect = styled.div`
   justify-content: flex-end;
   /* center | flex-start | flex-end */
   align-items: flex-start;
-  background-color: gray;
+  background-color: b3bbbd;
   height: 140px;
 `
 

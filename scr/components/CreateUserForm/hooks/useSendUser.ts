@@ -1,6 +1,6 @@
 import { FormEvent } from 'react'
 import { useCreateUserContext } from '../components/CreateUser'
-import { post } from '/api'
+import { post } from '../../../api'
 
 // separada regra de negócio dentro de um hook customizado
 const useSendUser = () => {
